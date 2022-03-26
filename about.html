@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2? family=poppins:wght@100;200;300;400;600;700display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/style.css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title>Aspilos</title>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"></a>
+    <div class="nav-links">
+        <ul>
+            <div class="nav-links" Id="checkmenu">
+                <i class="fa fa-times" onclick ="hideMenu()"></i>          
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick ="showMenu()"></i>
+    </nav>
+    <div class="about">
+        <h1>ABOUT</h1>
+        <p>We are the nation builders</p>
+    </div>
+</section>
+<!-- -----------About Us------------ -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are Nation The Builders</h1>
+            <p> Abocoders is a program of Aspilos Charity Foundation.
+                 Aspilos Charity Foundation is a non-governmental, non-political and non-for-profit organization
+                 delicated to improving the quality of human lives whose services are rendered in Abocoders Minna.
+            Working with others, in a spirit of generosity and mutual respect,
+            we want to help build a world where all people can lead free and dignified lives.
+            <br>Some issue Areas include:<br>1.Children & youth<br>2.Civic Engagement<br>
+            3.Economic Development<br>4.Enterprenuership<br>5.Science & Technology</p>
+            <a href="" class="hero-btn red-btn">Find more info here</a>
+        </div>
+       <div class=".about-col img">
+           <img src="./img/g.g2.jpg">
+       </div>
+    </div>
+</section>
+
+<!------- Footer ------>
+<section class="footer">
+	<div class="icons">
+	<i class="fa fa-facebook"></i>
+	<i class="fa fa-twitter"></i>
+	<i class="fa fa-instagram"></i>
+	<i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>By Fawziyyah</p>
+</section>
+
+
+
+
+
+<!---------- JavaScript for toggle Menu ------->
+<script>
+	var checkmenu = document.getElementById("checkmenu")  
+	function showMenu(){
+		checkmenu.style.right = "0";
+	}
+	function hideMenu(){
+		checkmenu.style.right = "-200px";
+	}
+</script>
+
+</body>
+</html>
